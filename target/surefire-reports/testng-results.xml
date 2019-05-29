@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="LearningJenkins.LearningJenkins.AppTest" duration-ms="3" started-at="2019-05-29T01:33:30Z" finished-at="2019-05-29T01:33:30Z">
+  <suite name="Command line suite" duration-ms="27" started-at="2019-05-29T03:07:12Z" finished-at="2019-05-29T03:07:13Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="3" started-at="2019-05-29T01:33:30Z" finished-at="2019-05-29T01:33:30Z">
+    <test name="Command line test" duration-ms="27" started-at="2019-05-29T03:07:12Z" finished-at="2019-05-29T03:07:13Z">
+      <class name="Test1">
+        <test-method status="PASS" signature="method1()[pri:0, instance:Test1@dbe50f]" name="method1" duration-ms="6" started-at="2019-05-29T08:37:13Z" finished-at="2019-05-29T08:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="thirdmethod()[pri:3, instance:Test1@dbe50f]" name="thirdmethod" duration-ms="0" started-at="2019-05-29T08:37:13Z" finished-at="2019-05-29T08:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdmethod -->
+        <test-method status="PASS" signature="secondmethod()[pri:2, instance:Test1@dbe50f]" name="secondmethod" duration-ms="0" started-at="2019-05-29T08:37:13Z" finished-at="2019-05-29T08:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondmethod -->
+        <test-method status="PASS" signature="firstmethod()[pri:1, instance:Test1@dbe50f]" name="firstmethod" duration-ms="0" started-at="2019-05-29T08:37:13Z" finished-at="2019-05-29T08:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstmethod -->
+      </class> <!-- Test1 -->
+      <class name="Test2">
+        <test-method status="PASS" signature="method2()[pri:0, instance:Test2@babb1]" name="method2" duration-ms="1" started-at="2019-05-29T08:37:13Z" finished-at="2019-05-29T08:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="secondmethod()[pri:4, instance:Test2@babb1]" name="secondmethod" duration-ms="0" started-at="2019-05-29T08:37:13Z" finished-at="2019-05-29T08:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondmethod -->
+        <test-method status="PASS" signature="thirdmethod()[pri:5, instance:Test2@babb1]" name="thirdmethod" duration-ms="0" started-at="2019-05-29T08:37:13Z" finished-at="2019-05-29T08:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdmethod -->
+        <test-method status="PASS" signature="firstmethod()[pri:3, instance:Test2@babb1]" name="firstmethod" duration-ms="0" started-at="2019-05-29T08:37:13Z" finished-at="2019-05-29T08:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstmethod -->
+      </class> <!-- Test2 -->
     </test> <!-- Command line test -->
-  </suite> <!-- LearningJenkins.LearningJenkins.AppTest -->
+  </suite> <!-- Command line suite -->
 </testng-results>
