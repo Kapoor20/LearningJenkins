@@ -29,7 +29,7 @@ public class Test1 {
 	}
 	@Test(priority=4)
 	public void printmethod (){
-		System.out.println("print");
+		System.out.println("print now");
 		
 	}
 	
