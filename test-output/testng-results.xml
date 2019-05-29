@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="196" started-at="2019-05-29T01:39:22Z" finished-at="2019-05-29T01:39:22Z">
+  <suite name="Default suite" duration-ms="87" started-at="2019-05-29T01:54:28Z" finished-at="2019-05-29T01:54:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="196" started-at="2019-05-29T01:39:22Z" finished-at="2019-05-29T01:39:22Z">
+    <test name="Default test" duration-ms="87" started-at="2019-05-29T01:54:28Z" finished-at="2019-05-29T01:54:28Z">
       <class name="Test1">
-        <test-method status="PASS" signature="method1()[pri:0, instance:Test1@1a485d2]" name="method1" duration-ms="20" started-at="2019-05-29T07:09:22Z" finished-at="2019-05-29T07:09:22Z">
+        <test-method status="PASS" signature="method1()[pri:0, instance:Test1@1a485d2]" name="method1" duration-ms="16" started-at="2019-05-29T07:24:28Z" finished-at="2019-05-29T07:24:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method1 -->
-        <test-method status="PASS" signature="eirstmethod()[pri:1, instance:Test1@1a485d2]" name="eirstmethod" duration-ms="2" started-at="2019-05-29T07:09:22Z" finished-at="2019-05-29T07:09:22Z">
+        <test-method status="PASS" signature="secondmethod()[pri:1, instance:Test1@1a485d2]" name="secondmethod" duration-ms="2" started-at="2019-05-29T07:24:28Z" finished-at="2019-05-29T07:24:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- eirstmethod -->
-        <test-method status="PASS" signature="firstmethod()[pri:2, instance:Test1@1a485d2]" name="firstmethod" duration-ms="1" started-at="2019-05-29T07:09:22Z" finished-at="2019-05-29T07:09:22Z">
+        </test-method> <!-- secondmethod -->
+        <test-method status="PASS" signature="thirdmethod()[pri:1, instance:Test1@1a485d2]" name="thirdmethod" duration-ms="1" started-at="2019-05-29T07:24:28Z" finished-at="2019-05-29T07:24:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdmethod -->
+        <test-method status="PASS" signature="firstmethod()[pri:2, instance:Test1@1a485d2]" name="firstmethod" duration-ms="2" started-at="2019-05-29T07:24:28Z" finished-at="2019-05-29T07:24:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstmethod -->

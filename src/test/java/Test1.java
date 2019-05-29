@@ -15,8 +15,14 @@ public class Test1 {
 	}
 
 	@Test(priority=1)
-	public void eirstmethod (){
+	public void secondmethod (){
 		System.out.println("second");
+		
+	}
+	
+	@Test(priority=1)
+	public void thirdmethod (){
+		System.out.println("third");
 		
 	}
 }
