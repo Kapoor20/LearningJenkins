@@ -27,4 +27,10 @@ public class Test1 {
 		System.out.println("third");
 		
 	}
+	@Test(priority=4)
+	public void printmethod (){
+		System.out.println("print");
+		
+	}
+	
 }
